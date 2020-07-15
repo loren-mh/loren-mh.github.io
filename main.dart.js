@@ -45094,20 +45094,22 @@ if(r==="TEXT")C.b.lr(this.a.e,0,new T.yZ(s.c,t,null))
 else if(r==="IMAGE")C.b.lr(this.a.e,0,new T.yY(s.c,t,null))},
 $S:0}
 F.H1.prototype={
-$0:function(){var t,s,r,q,p=null,o=this.b
-if(o==="")return
-t=new M.xB(p,p,p,p,p)
+$0:function(){var t,s,r,q,p,o=null,n=this.b
+if(n==="")return
+t=new M.xB(o,o,o,o,o)
 t.a="ALL"
 s=this.a
 t.b=s.f
-t.c=o
-r=s.e
-if(J.uM(o,"http")){t.d="IMAGE"
-C.b.lr(r,0,new T.A0(o,p))}else{t.d="TEXT"
-C.b.lr(r,0,new T.A1(o,p))}t.e=s.f
-q=C.b4.BJ(t.iB(),p)
-P.hu("json = "+q)
-$.Ym().b.r.a.B(0,q)},
+t.c=n
+if(J.uM(n,"http"))r=C.c.C(n,"png")||C.c.C(n,"jpg")||C.c.C(n,"WebP")||C.c.C(n,"GIF")
+else r=!1
+q=s.e
+if(r){t.d="IMAGE"
+C.b.lr(q,0,new T.A0(n,o))}else{t.d="TEXT"
+C.b.lr(q,0,new T.A1(n,o))}t.e=s.f
+p=C.b4.BJ(t.iB(),o)
+P.hu("json = "+p)
+$.Ym().b.r.a.B(0,p)},
 $S:0}
 F.H2.prototype={
 $2:function(a,b){return this.a.e[b]},
