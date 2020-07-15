@@ -45034,7 +45034,7 @@ iB:function(){var t=this
 return P.aU(["to",t.a,"from",t.b,"message",t.c,"type",t.d,"fromName",t.e],u.X,u.z)},
 gb6:function(a){return this.c}}
 B.QC.prototype={
-Sa:function(a){var t,s,r,q,p=null,o=W.a6k("ws://nodejs-tg.mybluemix.net/socket2?userId="+a,p)
+Sa:function(a){var t,s,r,q,p=null,o=W.a6k("wss://nodejs-tg.mybluemix.net/socket2?userId="+a,p)
 o.binaryType="arraybuffer"
 t=new B.At(u.sL)
 s=u.z
